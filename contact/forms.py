@@ -26,7 +26,14 @@ class ContactForm(forms.ModelForm):
 
     class Meta:
         model = models.Contact
-        fields = ("first_name", "last_name", "phone")
+        fields = (
+            "first_name",
+            "last_name",
+            "phone",
+            "email",
+            "description",
+            "category",
+        )
         # widgets = {
         #     "first_name": forms.TextInput(
         #         attrs={
@@ -55,9 +62,12 @@ class ContactForm(forms.ModelForm):
         first_name = self.cleaned_data.get("first_name")
 
         if first_name == "ABC":
-            raise ValidationError(
-                "Não digite ABC neste campo",
-                code="invalid",
+            self.add_error(
+                "first_name",
+                ValidationError(
+                    "Não digite ABC neste campo",
+                    code="invalid",
+                ),
             )
 
         return first_name
