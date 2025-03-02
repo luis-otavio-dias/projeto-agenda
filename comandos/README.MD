@@ -19,3 +19,6 @@ python manage.py migrate
 
 python manage.py createsuperuser
 python manage.py changepassword USERNAME
+
+# Alterando mensagem do último commit
+git commit --amend
