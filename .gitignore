@@ -11,12 +11,6 @@ project/local_settings.py
 # Backup files # 
 *.bak 
 
-# Docker/Server/Not Debuging
-docker-compose.yml
-dockerfile
-nginx.conf
-
-
 # If you are using PyCharm # 
 # User-specific stuff
 .idea/**/workspace.xml
