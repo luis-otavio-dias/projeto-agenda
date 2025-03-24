@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 3️⃣ Configure o banco de dados
 
-No arquivo settings.py configure a database.
+No arquivo settings.py configure o banco de dados em DATABASES.
 
 Se for usar SQLite, ele já estará configurado.
 
