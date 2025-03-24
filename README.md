@@ -30,7 +30,7 @@ O projeto foi criado como parte de um curso, reforçando habilidades em desenvol
 1️⃣ Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/projeto-agenda.git
+git clone https://github.com/luis-otavio-ias/projeto-agenda.git
 cd projeto-agenda
 ```
 
