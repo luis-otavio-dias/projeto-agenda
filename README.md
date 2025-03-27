@@ -73,13 +73,25 @@ DATABASES = {
 python manage.py migrate
 ```
 
-5️⃣ Crie um superusuário para acessar o painel administrativo
+5️⃣ Para inserir dados fictícios na agenda (opcional):
+ 
+- Navegue até a pasta utils na raiz do projeto:
+
+```
+cd .\projeto-agenda\utils
+```
+- Execute
+```
+python crate_contacts.py
+```
+
+6️⃣ Crie um superusuário para acessar o painel administrativo
 
 ```
 python manage.py createsuperuser
 ```
 
-6️⃣ Inicie o servidor local
+7️⃣ Inicie o servidor local
 
 ```
 python manage.py runserver
