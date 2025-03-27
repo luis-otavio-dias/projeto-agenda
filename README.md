@@ -73,14 +73,14 @@ DATABASES = {
 python manage.py migrate
 ```
 
-5️⃣ Para inserir dados fictícios na agenda (opcional):
+5️⃣ Para inserir dados fictícios na agenda (opcional)
  
 - Navegue até a pasta utils na raiz do projeto:
 
 ```
 cd .\projeto-agenda\utils
 ```
-- Execute
+- Execute:
 ```
 python crate_contacts.py
 ```
