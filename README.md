@@ -1,11 +1,11 @@
-📌 Descrição
+Descrição
 Este é um sistema web desenvolvido com Django (Python) para gerenciar contatos. Ele permite que usuários cadastrem-se, façam login e adicionem contatos com nome, e-mail, telefone, descrição e uma imagem opcional.
 
 O projeto foi criado como parte de um curso, reforçando habilidades em desenvolvimento backend, autenticação de usuários e manipulação de dados.
 
 🔗 Demo online: https://luisotaviodias.pythonanywhere.com
 
-🚀 Funcionalidades:
+Funcionalidades:
 
 - Cadastro e login de usuários
 - CRUD completo para contatos (criação, edição e exclusão)
@@ -13,20 +13,20 @@ O projeto foi criado como parte de um curso, reforçando habilidades em desenvol
 - Interface intuitiva para gerenciamento de dados
 - Proteção de dados dos usuários
 
-🛠️ Tecnologias utilizadas:
+Tecnologias utilizadas:
 
 - Django (framework backend)
 - Python (linguagem de programação)
 - SQLite/MySQL (banco de dados)
 - HTML, CSS (interface básica)
 
-⚙️ Como executar o projeto localmente
-📌 Pré-requisitos:
+Como executar o projeto localmente
+Pré-requisitos:
 - Python 3.8+ instalado
 - Banco de dados SQLite ou MySQL configurado
 - Virtualenv (opcional, mas recomendado)
 
-📌 Passo a passo
+Passo a passo
 1️⃣ Clone o repositório
 
 ```bash
@@ -96,10 +96,8 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-Agora, acesse http://127.0.0.1:8000/ no navegador. 🚀
+Agora, acesse http://127.0.0.1:8000/ no navegador.
 
 📝 Contribuição
 Se quiser contribuir, fique à vontade para abrir issues ou enviar um pull request!
 
-📄 Licença
-Este projeto está sob a licença MIT.
