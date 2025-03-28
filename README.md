@@ -1,4 +1,4 @@
-Descrição
+Descrição:
 Este é um sistema web desenvolvido com Django (Python) para gerenciar contatos. Ele permite que usuários cadastrem-se, façam login e adicionem contatos com nome, e-mail, telefone, descrição e uma imagem opcional.
 
 O projeto foi criado como parte de um curso, reforçando habilidades em desenvolvimento backend, autenticação de usuários e manipulação de dados.
